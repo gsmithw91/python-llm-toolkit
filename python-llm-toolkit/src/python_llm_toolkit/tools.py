@@ -116,7 +116,7 @@ def extract_tables_from_page(urls: List[str]) -> Dict[str, List[List[List[str]]]
     return scraper.extract_tables()
 
 
-TOOLS = [
+SCRAPING_TOOLS = [
     get_page_metadata,
     get_structured_snapshots,
     download_files_by_type,
